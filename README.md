@@ -22,8 +22,12 @@ This is a simple task management system built with Laravel. The system allows us
 
 ### Steps
 <ol>
-    <li>Clone the repository:<br/> git</li>
-    <li>Install dependencies:<br/> </li>
+    <li>Clone the repository</li>
+    <li>Install dependencies:<br/> 
+        <ol> <li>cd task-management-system </li>
+        <li>composer install</li>
+        </ol>
+    </li>
     <li>Set up your .env file: Copy .env.example to .env:<br/></li>
     <li>Generate the application key:<br/> php artisan key:generate</li>
     <li>Set up the database:
@@ -32,4 +36,13 @@ This is a simple task management system built with Laravel. The system allows us
         <li>Run migrations to create the necessary database tables: <br/> php artisan migrate</li>
         </ol>
     </li>
+    <li>Seed the database (optional):
+    <ol>
+        <li>
+            You can populate the database with sample data using: <strong> php artisan db:seed </strong>
+        </li>
+    </ol>
+    </li>
+    <li>Serve the application : <strong> php artisan serve </strong> </li>
+    
 </ol>
